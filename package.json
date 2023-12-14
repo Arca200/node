@@ -1,0 +1,22 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mycli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.10.4",
+    "commander": "^11.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.2.12"
+  }
+}
